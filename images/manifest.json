@@ -7,5 +7,87 @@
             "All images loaded in atticusbikos/testDay3 project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://atticusbikos.github.io/testDay3/images/maltese-portrait/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "maltese-portrait"
+                ]
+            },
+            "height": 448,
+            "width": 740,
+            "items": [
+                {
+                    "id": "https://atticusbikos.github.io/testDay3/images/maltese-portrait/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://atticusbikos.github.io/testDay3/images/maltese-portrait/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://atticusbikos.github.io/testDay3/images/maltese-portrait/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 24,
+                                                "height": 14
+                                            },
+                                            {
+                                                "width": 47,
+                                                "height": 28
+                                            },
+                                            {
+                                                "width": 93,
+                                                "height": 56
+                                            },
+                                            {
+                                                "width": 185,
+                                                "height": 112
+                                            },
+                                            {
+                                                "width": 370,
+                                                "height": 224
+                                            },
+                                            {
+                                                "width": 740,
+                                                "height": 448
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 740,
+                                        "@id": "https://atticusbikos.github.io/testDay3/images/maltese-portrait",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 448,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://atticusbikos.github.io/testDay3/images/maltese-portrait/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
